@@ -44,6 +44,7 @@ header{
     color: white;
     margin-bottom: 20px;
     font-family: var(--fonte-destaque);
+    font-weight: normal;
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
 }
@@ -93,6 +94,7 @@ main{
 main  h1 {
     font-family: var(--fonte-android);
     color: var(--cor5);
+    font-size: 1.8em;
 }
 
 main  h2 {
@@ -137,6 +139,21 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+div.video{
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
 }
 
 aside{
